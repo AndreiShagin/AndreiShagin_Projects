@@ -25,15 +25,15 @@ Model selection criteria:
 - matplotlib, seaborn, pandas, sklearn
 
 ## Final result
-| | Training time, sec | Prediction time, sec | RMSE |
-|------------:|:--------------------:|:----- --------------------:|:-----------:|
-| LightGBM | 0.453220 | 0.096657 | 1619.491135 |
-| LightGBM_tune | 1.905599 | 0.096657 | 1528.083352 |
-| Linear Regression | 2.531641 | 0.254325 | 2615.396890 |
-| Random Forest | 2.531641 | 0.411866 | 1631.064896 |
-| RandomForest_tune | 38.452305 | 0.413474 | 1622.971090 |
-| catboost | 58.845365 | 0.165132 | 1597.171163 |
-| catboost_cv | 64.517677 | 0.259060 | 1569.805924 |
+|                   | Train time, sec.     | Orediction time, sec     |     RMSE    |
+|------------------:|:--------------------:|:------------------------:|:-----------:|
+| LightGBM          |       0.453220       |         0.096657         | 1619.491135 |
+| LightGBM_tune     |       1.905599       |         0.096657         | 1528.083352 |
+| LinearRegression  |       2.531641       |         0.254325         | 2615.396890 |
+| RandomForest      |       2.531641       |         0.411866         | 1631.064896 |
+| RandomForest_tune |       38.452305      |         0.413474         | 1622.971090 |
+| CatBoost          |       58.845365      |         0.165132         | 1597.171163 |
+| CatBoost_cv       |       64.517677      |         0.259060         | 1569.805924 |
 
 ## Conclusion
 The best model for learning rate, predictions is LGBM.

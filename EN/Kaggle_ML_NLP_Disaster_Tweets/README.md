@@ -1,4 +1,4 @@
-# Project Identifying Fake and Real Disaster Tweets
+# Identifying Fake and Real Disaster Tweets
 > Kaggle test, based on the history of tweets, train a model that will predict a real tweet about a disaster or a fake.
 
 ## Content

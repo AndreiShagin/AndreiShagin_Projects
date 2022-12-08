@@ -1,23 +1,23 @@
 # Identifying Fake and Real Disaster Tweets
-> Kaggle test, based on the history of tweets, train a model that will predict a real tweet about a disaster or a fake.
+> Kaggle dataset. Based on the history of tweets, train a model that will predict a real tweet about a disaster or a fake.
 
 ## Content
 * [Target](#Target)
-* [Sequence of actions](#Sequence of actions)
-* [Libraries Used](#Libraries Used)
+* [Steps](#Steps)
+* [Libraries](#Libraries)
 * [Final result](#Final-result)
 * [Output](#Output)
 
 ## Target
 **Train the model to identify real tweets and fakes**
 
-## Sequencing
+## Steps
 - tweets are cleared of additional characters, stop words
 - carried out lemmatization
 - made an analysis of popular words separately for tweets about real disasters and fake ones
 - trained 4 models with default parameters and hyperparameter fitting
 
-## Used libraries
+## Libraries
 - Models: CatBoost, LightGBM, LinearRegression, Random Forrest, GridSearchCV was used to select parameters
 - matplotlib, sklearn, torch, nltk, CountVectorizer, TfidfVectorizer, pymystem3
 
